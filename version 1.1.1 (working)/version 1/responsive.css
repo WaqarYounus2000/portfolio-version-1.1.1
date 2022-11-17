@@ -1,0 +1,224 @@
+@media screen and (max-width: 600px) {
+    .mySwiper {
+        display: block;
+    }
+
+    body {
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Varela Round', sans-serif;
+        scroll-snap-type: x;
+
+    }
+
+    .heading2 {
+        font-size: 30px;
+    }
+
+    .heading3 {
+        font-size: 1em;
+
+    }
+
+    .aside1 {
+        position: absolute;
+        top: -10px;
+        /* width: 0%; */
+        /* overflow: hidden; */
+        transform: translateX(-120%);
+        width: 100vw;
+        /* overflow: hidden; */
+        transition: all 600ms;
+        scroll-snap-align: start;
+
+    }
+
+    .aside2 {
+        width: 100%;
+        position: absolute;
+        /* overflow: hidden; */
+    }
+
+    .cardsdiv {
+        display: none;
+    }
+
+    .aside2>div>p {
+        font-size: 0.6em;
+    }
+
+    .cards {
+        width: 260px;
+        height: 322px;
+        position: relative;
+        transform: translate(0px, 0%);
+    }
+
+
+    .info>h5 {
+        font-size: 0.8em;
+        text-decoration: underline;
+    }
+
+    .info>li {
+        font-size: 0.6em;
+    }
+
+    .cards>h3,
+    i {
+        font-size: 0.7em;
+    }
+
+    .info>h4 {
+        font-size: 0.7em;
+    }
+
+    .info>p {
+        font-size: 0.7em;
+    }
+
+    .title>h3 {
+        font-size: 0.8em;
+    }
+
+    .active {
+        position: relative;
+        transform: translate3d(0px, 0%, 0px);
+        transition: all 1000ms ease 0.2s
+    }
+
+    .secondpagecontent {
+        font-size: 1.6em;
+    }
+
+    /* 
+    .slider_div {
+        width: 100%;
+        height: 245px;
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 20% !important;
+    }
+
+    .carousel-inner {
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .carousel-inner {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        height: 300px !important;
+        top: -5px !important;
+    }
+
+    .sliderbutton {
+        width: 15px !important;
+        margin: 10px !important;
+    } */
+
+    .headingandmenu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: block !important;
+        height: 24px;
+        width: 24px;
+
+    }
+
+    footer {
+        bottom: 5%;
+    }
+
+    .hidemenubutton {
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 3px;
+    }
+
+
+    .page1_div2 {
+        bottom: 7%;
+    }
+
+    .mySwiper, .swiper-wrapper, .swiper-slide-active {
+        height: 493px !important;
+    }
+    .mySwiper {
+        display: block;
+        height: 399px;
+        height: 490px !important;
+        /* background: #fcfcfc  !important;
+        background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA)  !important;
+        background: linear-gradient(to right, #FFFFFF, #FFEFBA)  !important; */
+
+    }
+
+
+    .swiper-pagination-vertical.swiper-pagination-bullets,
+    .swiper-vertical>.swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        transform: translate3d(-6px, 0%, 0) !important;
+    }
+
+
+
+
+
+
+
+
+
+/* ???????????????????????page 3 slider //////////////////// */
+.slider2{
+    display: block;
+}
+
+.cardsforservice{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+
+    }
+ */

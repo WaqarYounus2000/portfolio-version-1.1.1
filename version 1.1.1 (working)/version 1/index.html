@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="slider.css"> -->
+
+
+    <!-- swiper's css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .border {
+            border: 2px solid red;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="mainwrapper" id="mainwrapperID">
+
+
+
+        <section data-index="1" class="one" id="oneID">
+            <div class="page1" id="page1ID">
+                <div class="page1_div1">
+                    <div id="container">
+                        <h1>HELLO</h1>&nbsp;&nbsp;<h1 id="text"></h1>
+                        <h1 id="cursor"></h1>
+                    </div>
+                    <div class="pic"></div>
+                    <h4 class="heading2"> <span class="spanheading2">Hy! I'm</span> WAQAR YOUNUS</h4>
+                    <h4 class="heading3">WEB & MOBILE DEVELOPER</h4>
+                </div>
+
+                <div class="page1_div2">
+                    <button class="button1" id="button1"><img class="downarrow" src="./images/bottom-image.png"
+                            alt=""></button>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section data-index="2" class="two" id="twoID">
+            <header style="display: flex; justify-content: center; align-items: center; height: 30px;">
+                <button class="uparrow" id="button2"><img class="uparrow" src="./images/uparrowbutton.png"
+                        alt="Home"></button>
+            </header>
+
+            <div style="display: flex;  height:100vh">
+                <!-- ////////////////////////////////////////////////// -->
+
+                <aside id="aside1ID" class="aside1">
+                    <div class="hidemenubutton"><button id="hidemenuID" class="closemenu"><i
+                                class="fa-solid fa-xmark"></i></button></div>
+                    <div class="profilediv">
+                        <div class="pic2"></div>
+                    </div>
+
+                    <div class="name center">
+                        <h2 class="white">WAQAR YOUNUS</h2>
+                    </div>
+                    <div class="uniintro center">
+                        <h5 class="white" style="padding: 5px;">Undergraduate in Univesity of Karachi Department of
+                            Computer Science
+                            (UBIT)
+                        </h5>
+                    </div>
+
+                    <ul class="unorderlist">
+                        <li class="licontent white"><span class="span"><i
+                                    class="fa-solid infoicons fa-phone"></i></span>
+                            <h4 class="headingh4info">Contact:03042108646</h4>
+                        </li>
+                        <li class="licontent white"><span class="span"><i
+                                    class="fa-solid infoicons fa-envelope"></i></span>
+                            <h4 class="headingh4info">Email: waqarsays000@gmail.com</h4>
+                        </li>
+                        <li class="licontent white  "><span class="span"><i
+                                    class="fa-solid infoicons fa-location-dot"></i></span>
+                            <h4 class="headingh4info">Address: Clifton</h4>
+                        </li>
+                    </ul>
+
+
+                    <div class="main iconsforsocialmedia">
+                        <ul class="unorderlist1">
+                            <li class="fblist CL"> <a target="_blank" class="fb CL" href="https://www.facebook.com/"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                                </i></li>
+                            <li class="instalist CL"> <a target="_blank" class="insta CL"
+                                    href="https://www.instagram.com/waqar_younus_says000/"><i
+                                        class="fa-brands fa-instagram"></i></a> </li>
+                            <li class="youtubelist CL"> <a target="_blank" class="youtube CL"
+                                    href="https://www.youtube.com"> <i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="twitterlist CL"> <a target="_blank" class="twitter  CL"
+                                    href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a> </li>
+                            <li class="linkedinlist CL"> <a target="_blank" class="linkedin  CL"
+                                    href="https://www.linkedin.com/in/waqar-younus-643457252/"> <i
+                                        class="fa-brands fa-linkedin"></i></a></li>
+                            <li class="githublist CL"> <a target="_blank" class="github  CL"
+                                    href="https://github.com/WaqarYounus2000"> <i class="fa-brands fa-github"></i></a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </aside>
+                <!-- ////////////////////////////////////////////////////// -->
+                <aside id="aside2ID" class="aside2">
+
+                    <div style="width:100%">
+                        <h2 class="headingandmenu" style="margin-left:10px; text-decoration:underline;">About me <div><i
+                                    id="menuID" class="fa-solid fa-bars menu"></i></div>
+                        </h2>
+                    </div>
+                    <div style="margin-left:10px;" class="secondpagecontent">
+                        <p>A Up to Snuff geek of Cross-Functional Web & Mobile Application Development</p>
+                        <p>I'm a passionate MERN Stack Developer </p>
+                        <p>Ask me about React, JavaScript,Non-Structural Database(Firebase),Structural
+                            Database(MYSQL),object Oriented Programming,HDL,Arduino Based projects,Computer
+                            Networking,Electronic Circuits</p>
+                    </div>
+
+                    <div class="cardsdiv">
+                        <div class="cards center">
+                            <!-- <div class="circle">
+                                
+                            </div> -->
+                            <div class="title center">
+                                <h3 class="center"> <i class="cardsicons1 fa-solid fa-wrench"></i> Skills</h3>
+                            </div>
+                            <div class="info">
+                                <li class="info2">-Front-End & Backend-End developer with API integration.</li>
+                                <li class="info2">-Mobile application developer (ReactNative).</li>
+                                <h5>languages worked on:</h5>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>C++</li>
+                                <li>C language</li>
+                                <li>JavaScript</li>
+                                <li>Assembly</li>
+
+                            </div>
+
+                        </div>
+                        <div class="cards">
+                            <div class="title">
+                                <h3 class="center"> <i class="cardsicons1 fa-solid fa-graduation-cap"></i> Education
+                                </h3>
+                            </div>
+                            <div class="info">
+                                <h4 style="padding:0px; margin:0px;">University:</h4>
+                                <p style="font-size:0.8em; padding: 0px; margin: 0px;">Undergraduate In University of
+                                    karachi</p>
+                                <h4 style="margin-bottom: 0px;">Intermediate:</h4>
+                                <p style="font-size:0.8em; margin-top: 0px;">Federal Govt Inter boys college,Cannt</p>
+                                <h4 style="margin-bottom:0px ;">Schooling:</h4>
+                                <p style="font-size:0.8em; margin-top: 0px;">SIMS</p>
+                            </div>
+
+                        </div>
+                        <div class="cards">
+                            <div class="title">
+                                <h3 class="center"> <i class="cardsicons1 fa-solid fa-star"></i>Experience</h3>
+                            </div>
+                            <div class="info">
+                                <h4 style="padding:0px; margin:0px;">working for own</h4>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- //////////////////////slider starts///////////////////////////// -->
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide border">
+                                <div class="cards">
+                                    <div class="title">
+                                        <h3 class="center"> <i class="cardsicons1 fa-solid fa-wrench"></i> Skills
+                                        </h3>
+                                    </div>
+                                    <div class="info">
+                                        <li class="info2">-Front-End & Backend-End developer with API integration.
+                                        </li>
+                                        <li class="info2">-Mobile application developer (ReactNative).</li>
+                                        <h5>languages worked on:</h5>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>C++</li>
+                                        <li>C language</li>
+                                        <li>JavaScript</li>
+                                        <li>Assembly</li>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide border">
+                                <div class="cards">
+                                    <div class="title">
+                                        <h3 class="center"> <i class="cardsicons1 fa-solid fa-graduation-cap"></i>
+                                            Education</h3>
+                                    </div>
+                                    <div class="info">
+                                        <h4 style="padding:0px; margin:0px;">University:</h4>
+                                        <p style="padding: 0px; margin: 0px;">Undergraduate In
+                                            University of karachi</p>
+                                        <h4 style="margin-bottom: 0px;">Intermediate:</h4>
+                                        <p style="font-size:0.8em; margin-top: 0px;">Federal Govt Inter boys
+                                            college,Cannt</p>
+                                        <h4 style="margin-bottom:0px ;">Schooling:</h4>
+                                        <p style="font-size:0.8em; margin-top: 0px;">SIMS</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide border">
+                                <div class="cards">
+                                    <div class="title">
+                                        <h3 class="center"> <i class="cardsicons1 fa-solid fa-star"></i>Experience
+                                        </h3>
+                                    </div>
+                                    <div class="info">
+                                        <h4 style="padding:0px; margin:0px;">Nill</h4>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <!-- //////////////////////////slider finish///////////////////////// -->
+
+                </aside>
+
+            </div>
+            <footer
+                style="position: absolute;width: 100%; bottom: 0%; display: flex; justify-content: center; align-items: center;">
+                <button class="downarrow" id="button3"><img style="border:none; width: 50px;"
+                        src="./images/downarrowbutton.png" alt=""></button>
+            </footer>
+
+
+
+
+        </section>
+
+
+
+
+        <section data-index="3" class="three">
+            <div style="display: flex; justify-content: center; align-items: center; height: 30px;">
+                <button class="uparrow" id="button4"><img class="uparrow" src="./images/uparrowbutton.png"
+                        alt=""></button>
+            </div>
+            <h1 class="myservices">I Offer</h1>
+
+            <div class="pagethreebody">
+
+
+                <div class="cardsforservice">
+                    <div class="servicecards">
+                        <i class=" serviceIcons fa-solid fa-code"></i>
+                        <h2 class="colorwhite titleservice">Front-End web Design and Development</h2>
+                        <p class="para1">Attractive UI & UX design for web browser and Mobile Apps</p>
+                    </div>
+
+                    <div class="servicecards">
+                        <i class=" serviceIcons fa-solid fa-gear"></i>
+                        <h2 class="colorwhite titleservice">Back-End Development</h2>
+                        <p class="para1">API Integration,Server connection for logic implementation</p>
+                    </div>
+
+                    <div class="servicecards">
+                        <div class="serviceIcons">
+                            <i class=" serviceIcons fa-brands fa-android"></i>
+                            <i class=" serviceIcons fa-brands fa-app-store-ios"></i>
+
+                        </div>
+                        <h2 class="colorwhite titleservice">Mobile Application Development Android/Ios/Harmoni</h2>
+                        <p class="para1">Android and Ios development Attractive UI and better functionality with
+                            ReactNative</p>
+                    </div>
+
+
+                    <div class="servicecards">
+                        <i class=" serviceIcons fa-solid fa-bezier-curve"></i>
+                        <h2 class="colorwhite titleservice">Graphic Designing/Photo & Video Editing</h2>
+                        <p class="para1">basic Illustration and designing </p>
+                    </div>
+
+
+
+                </div>
+
+
+                <!-- slider starts///////////////////////////////////// -->
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="servicecards">
+                                <i class=" serviceIcons fa-solid fa-code"></i>
+                                <h2 class="colorwhite titleservice">Front-End web Design and Development</h2>
+                                <p class="para1">Attractive UI & UX design for web browser and Mobile Apps</p>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="servicecards">
+                                <i class=" serviceIcons fa-solid fa-gear"></i>
+                                <h2 class="colorwhite titleservice">Back-End Development</h2>
+                                <p class="para1">API Integration,Server connection for logic implementation</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="servicecards">
+                                <div class="serviceIcons">
+                                    <i class=" serviceIcons fa-brands fa-android"></i>
+                                    <i class=" serviceIcons fa-brands fa-app-store-ios"></i>
+
+                                </div>
+                                <h2 class="colorwhite titleservice">Mobile Application Development Android/Ios/Harmoni
+                                </h2>
+                                <p class="para1">Android and Ios development Attractive UI and better functionality with
+                                    ReactNative</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="servicecards">
+                                <i class=" serviceIcons fa-solid fa-bezier-curve"></i>
+                                <h2 class="colorwhite titleservice">Graphic Designing/Photo & Video Editing</h2>
+                                <p class="para1">basic Illustration and designing </p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+
+                <!-- ////////////////////////////////////////////////////////// -->
+
+
+
+
+        </section>
+
+
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="styling.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

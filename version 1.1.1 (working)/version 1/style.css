@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mainwrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    transform: translate3d(0px, 0%, 0px);
+    /* transition: all 1000ms ease 0s; */
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    transition: all 1000ms ease 0.2s;
+    transform-style: preserve-3d
+}
+
+.one {
+    position: absolute;
+
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #72C9B9;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(55, 21, 148, 1) 50%, rgba(0, 212, 255, 1) 100%);
+
+    scroll-snap-align: center;
+    transform: translate3d(0px, 0%, 0px);
+    transition: all 1000ms ease 0.2s;
+}
+
+.two {
+    background: #fcfcfc;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+
+    position: absolute;
+    /* top: 200%; */
+    top: 100%;
+    /* border: 2px solid rgb(10, 235, 25); */
+    /* background-color: green; */
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    transform: translate3d(0px, 0%, 0px);
+    /* background-color: #72C9B9; */
+    /* background-color: #bcdee7; */
+    transition: all 1000ms ease 0.2s;
+    background-color: white;
+}
+
+.three {
+    position: absolute;
+    top: 200%;
+    /* border: 2px solid rgb(10, 25, 235); */
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+    transition: all 1000ms ease 0.2s;
+}
+
+
+.active {
+    position: relative;
+    transform: translate3d(0px, -100%, 0px);
+    transition: all 1000ms ease 0.2s;
+}
+
+.active2 {
+    position: relative;
+    transform: translate3d(0px, 0%, 0px);
+    transition: all 1000ms ease 0.2s;
+}
+
+/* /////////////////////////////////////// */
+.active3 {
+    position: relative;
+    transform: translate3d(0px, -200%, 0px);
+    transition: all 1000ms ease 0.2s;
+}
+
+
+/* //////////////////////////// */
+
+.active6 {
+    position: relative;
+    transform: translate3d(0px, -100%, 0px);
+    transition: all 1000ms ease 0.2s;
+}

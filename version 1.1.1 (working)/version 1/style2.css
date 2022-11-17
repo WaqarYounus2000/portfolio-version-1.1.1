@@ -1,0 +1,639 @@
+body {
+    margin: 0px;
+    user-select: none;
+    padding: 0px;
+
+    /* font-family: 'League Spartan', sans-serif; */
+    /* font-family: 'League Spartan', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Varela_Round/VarelaRound-Regular.ttf');
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* /////////////////////////////// page 1 style ///////////////////////////////////// */
+
+
+.page1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(55, 21, 148, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.6s;
+}
+
+
+.page1_div1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s;
+    position: relative;
+    flex-direction: column;
+}
+
+.page1_div2 {
+    position: absolute;
+    background-color: transparent;
+    bottom: 1px;
+}
+
+.button1 {
+    background-color: transparent;
+    border: none;
+    transition: all 0.6s;
+    position: relative;
+    width: 20px;
+
+}
+
+.downarrow {
+    background-color: transparent;
+    opacity: 0.3;
+    transition: all 0.3s;
+    border: none;
+    animation: lighting 3s infinite;
+    width: 12px;
+}
+
+.downarrow:hover {
+    cursor: pointer;
+    opacity: 1;
+    content: "";
+    transition: ease-in-out 0.3s;
+
+}
+
+.button1:before {
+    content: "About";
+    width: 75px;
+    height: 16px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: -22px;
+    bottom: 40px;
+    transform: all 0.5;
+    border-radius: 5px;
+    transition: all 0.5;
+}
+
+.button1:hover:before {
+    display: flex;
+    transition: all 0.5;
+}
+
+
+
+.heading1 {
+    font-size: 48px;
+    color: white;
+}
+
+.heading2 {
+    font-size: 35px;
+    color: white;
+    margin-top: 25px;
+
+    /* ////
+     */
+
+    padding: 16px;
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.spanheading2 {
+    font-size: 15px;
+
+}
+
+.heading3 {
+    position: absolute;
+    bottom: 0px;
+    font-size: 16px;
+    color: white;
+    /* left: 99px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    margin: 0px;
+    /* border: 2px solid red; */
+    width: 275px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/mylogo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 150px;
+}
+
+
+
+/* //////////////////////////////////////////////////// page 2 style/////////////// */
+
+
+.aside1 {
+    height: 100vh;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 25%;
+    /* border: 2px solid rgb(13, 14, 13); */
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+    /* background-color: white; */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+
+.aside2 {
+    height: 100vh;
+    width: 75%;
+    /* border: 2px solid rgb(223, 8, 8); */
+
+}
+
+.profilediv {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background: #27AAE1;
+}
+
+/* .circle{
+    background-color: #27AAE1;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 255px;
+} */
+
+.pic2 {
+    margin: 0px;
+    /* border: 2px solid red; */
+    width: 175px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/mylogo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 150px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.licontent {
+    display: flex;
+    align-items: center;
+}
+
+.infoicons {
+    color: black;
+}
+
+.name {
+
+    border-bottom: 2px solid rgb(24, 23, 23);
+}
+
+.uniintro {
+    border-bottom: 2px solid rgb(20, 19, 19);
+    /* border: 2px solid rgb(230, 24, 10); */
+
+    text-align: center;
+    /* width: 70%; */
+}
+
+.white {
+    color: rgb(20, 19, 19);
+    /* color: #212529; */
+    /* color: white; */
+}
+
+.uparrow {
+    margin-top: 12px;
+    width: 50px;
+    animation: lighting 3s infinite;
+}
+
+.unorderlist1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.unorderlist>li>span {
+    padding: 5px;
+
+}
+
+.headingh4info {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.8em;
+    font-weight: 400;
+
+}
+
+.info>h4 {
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline !important;
+
+}
+
+.title>h3 {
+    font-size: 18px;
+}
+
+.cardsdiv {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* .info>li{
+    display: flex;
+    justify-content: center;
+} */
+.info2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cardsicons1 {
+    color: black;
+    padding-right: 5px;
+    font-size: 0.5m;
+}
+
+/* .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: middle;
+} */
+.cards {
+    /* box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset; */
+    box-sizing: border-box;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    flex-direction: column;
+    transition: all 0.4s;
+    /* background-color: white; */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    /* background: #27AAE1; */
+
+}
+
+.uparrow {
+    background-color: transparent;
+    border: none;
+    opacity: 0.3;
+}
+
+.uparrow:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.info2 {
+    font-size: 0.8em;
+
+}
+
+
+.slider_div {
+    display: none;
+}
+
+.closemenu {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.hidemenubutton {
+    display: none;
+}
+
+.menu {
+    display: none !important;
+}
+
+
+
+
+
+
+/* page three style /////////////////////////////////// */
+
+/* ////////////////////////////////////////////// */
+
+.pagethreebody{
+    height: 85vh;
+    width: 100vw;
+    border: 2px solid green;
+}
+.cardsforservice{
+    border: 2px solid red;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.servicecards{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 250px;
+    padding: 4px;
+    width: 255px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #171515;
+    border-radius: 15px;
+    
+}
+.titleservice{
+    text-align: center;
+    font-size: 25px;
+}
+.para1{
+    text-align: center;
+}
+.serviceIcons{
+    font-size: 45px;
+}
+
+
+.slider2{
+    display: none;
+}
+
+.mySwiper,.swiper-wrapper,.swiper-slide-active {
+    height: 300px !important;
+}
+.swiper{
+    height: 300px !important;
+
+}
+/* .swiper,.mySwiper,.swiper-initialized,.swiper-vertical,.swiper-backface-hidden{
+    height: 300px !important;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ??????????????????????????? icons style///// */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+
+}
+
+.unorderlist1 {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.CL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.main ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main ul li {
+    /* border: 2px solid red; */
+    list-style: none;
+    width: 55px !important;
+
+}
+
+a {
+    border-radius: 0;
+    font-size: 15px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+    overflow: hidden;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.fblist:hover {
+    background-color: #3b5998;
+    border-width: 0;
+    cursor: pointer;
+    transition: ease 0.3s;
+
+}
+
+.instalist:hover {
+    /* background-color: #cb2027; */
+    border-width: 0;
+    cursor: pointer;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.youtubelist:hover {
+    background-color: #cb2027;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.twitterlist:hover {
+    background-color: #00aced;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.linkedinlist:hover {
+    background-color: #3b5998;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.githublist:hover {
+    background-color: #171515;
+    border-width: 0;
+    cursor: pointer;
+}
+
+
+i {
+    font-size: 22px;
+    color: white;
+    animation: toTopFromBottom12 0.3s forwards;
+}
+
+.main>ul>li:hover i {
+    animation: toTopFromBottom 0.3s forwards;
+    cursor: pointer;
+}
+
+
+
+/* /////////////////////////////////////////////////myswiper */
+.mySwiper{
+    display: none;
+}
+
+/*  */
+@keyframes toTopFromBottom {
+    49% {
+        transform: translateY(-100%)
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    51% {
+        opacity: 1
+    }
+
+
+}
+
+@keyframes toTopFromBottom12 {
+    49% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    50% {
+        transform: translateY(-100%)
+    }
+
+    51% {
+        opacity: 1
+    }
+
+
+}
+
+
+/*//////////////////////////////////////////////icon style finish  */
+
+@keyframes lighting {
+
+    0% {
+        opacity: 0.3;
+    }
+
+    25% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    75% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+
+
+}
