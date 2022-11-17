@@ -18,6 +18,19 @@
         font-size: 1em;
 
     }
+    .one{
+        overflow: hidden;
+    }
+    .title{
+        margin-top: 12px;
+    }
+    .info>li{
+        font-size: 0.9em;
+
+    }
+    .info2{
+        font-size: 0.9em;
+    }
 
     .aside1 {
         position: absolute;
@@ -39,7 +52,14 @@
     }
 
     .cardsdiv {
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow-x: scroll;
+        height: 500px;
+        
     }
 
     .aside2>div>p {
@@ -47,10 +67,15 @@
     }
 
     .cards {
-        width: 260px;
-        height: 322px;
+        margin: 5px;
+        width: 75%;
+        height: 450px;
         position: relative;
         transform: translate(0px, 0%);
+    }
+    .cards:hover{
+        cursor: pointer;
+        border-top: 2px solid black;
     }
 
 
@@ -69,15 +94,15 @@
     }
 
     .info>h4 {
-        font-size: 0.7em;
+        font-size: 1.5em;
     }
 
     .info>p {
-        font-size: 0.7em;
+        font-size: 1em;
     }
 
     .title>h3 {
-        font-size: 0.8em;
+        font-size: 1.3em;
     }
 
     .active {
@@ -88,6 +113,10 @@
 
     .secondpagecontent {
         font-size: 1.6em;
+    }
+
+    .profilediv{
+        margin-top: 60px;
     }
 
     /* 

@@ -36,9 +36,13 @@ body {
 }
 
 .two {
-    background: #fcfcfc;
+    /* background: #fcfcfc;
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); */
+    background-image: url('./images/protruding-squares.png');
+    background-repeat: both;
+    background-size: 100px;
+
 
     position: absolute;
     /* top: 200%; */
@@ -52,7 +56,7 @@ body {
     /* background-color: #72C9B9; */
     /* background-color: #bcdee7; */
     transition: all 1000ms ease 0.2s;
-    background-color: white;
+    color: white;
 }
 
 .three {
