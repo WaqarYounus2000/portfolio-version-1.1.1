@@ -18,23 +18,29 @@
         font-size: 1em;
 
     }
-    .one{
+
+    .one {
         overflow: hidden;
     }
-    .title{
+
+    .title {
         margin-top: 12px;
     }
-    .info>li{
-        font-size: 0.9em;
+
+    .info>li {
+        font-size: 1em;
 
     }
-    .info2{
-        font-size: 0.9em;
+
+    .info2 {
+            font-size: 1.2em;
+            text-align: center;
+        
     }
 
     .aside1 {
         position: absolute;
-        top: -10px;
+        top: 0px;
         /* width: 0%; */
         /* overflow: hidden; */
         transform: translateX(-120%);
@@ -59,7 +65,7 @@
         flex-wrap: wrap;
         overflow-x: scroll;
         height: 500px;
-        
+
     }
 
     .aside2>div>p {
@@ -73,7 +79,8 @@
         position: relative;
         transform: translate(0px, 0%);
     }
-    .cards:hover{
+
+    .cards:hover {
         cursor: pointer;
         border-top: 2px solid black;
     }
@@ -84,9 +91,7 @@
         text-decoration: underline;
     }
 
-    .info>li {
-        font-size: 0.6em;
-    }
+   
 
     .cards>h3,
     i {
@@ -115,7 +120,7 @@
         font-size: 1.6em;
     }
 
-    .profilediv{
+    .profilediv {
         margin-top: 60px;
     }
 
@@ -181,9 +186,12 @@
         bottom: 7%;
     }
 
-    .mySwiper, .swiper-wrapper, .swiper-slide-active {
+    .mySwiper,
+    .swiper-wrapper,
+    .swiper-slide-active {
         height: 493px !important;
     }
+
     .mySwiper {
         display: block;
         height: 399px;
@@ -210,14 +218,14 @@
 
 
 
-/* ???????????????????????page 3 slider //////////////////// */
-.slider2{
-    display: block;
-}
+    /* ???????????????????????page 3 slider //////////////////// */
+    .slider2 {
+        display: block;
+    }
 
-.cardsforservice{
-    display: none;
-}
+    .cardsforservice {
+        display: none;
+    }
 
 
 

@@ -173,7 +173,15 @@ body {
     /* border: 2px solid rgb(13, 14, 13); */
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
     /* background-color: white; */
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 3px 6px rgba(7, 4, 4, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    
+
+}
+.unorderlist{
+    padding: 0;
+    padding-left: 5px;
+    margin: 0;
 
 }
 
@@ -184,7 +192,10 @@ body {
  
 
 }
-
+.languages_worked_on{
+    font-size: 1em;
+    font-weight: 800;
+}
 .profilediv {
     /* border: 2px solid red; */
     width: 100%;
@@ -194,7 +205,7 @@ body {
     align-items: center;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    background: #27AAE1;
+    /* background: #27AAE1; */
 
 }
 
@@ -286,9 +297,9 @@ body {
 }
 
 .info>h4 {
-    font-weight: 700;
-    font-size: 18px;
-    text-decoration: underline !important;
+    font-weight: 800;
+    font-size: 1.1em;
+    /* text-decoration: underline !important; */
 
 }
 
@@ -346,6 +357,7 @@ body {
     background-color: white;
     color: black;
     box-sizing: border-box;
+    padding: 20px;
 
 }
 .cards:hover{
@@ -429,6 +441,10 @@ body {
 .titleservice{
     text-align: center;
     font-size: 25px;
+}
+.titleheading{
+    font-weight: 700;
+    font-size: 2.1em;
 }
 .para1{
     text-align: center;
